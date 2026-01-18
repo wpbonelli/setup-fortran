@@ -3,8 +3,8 @@ version,13,14,15,2021.1,2021.1.2,2021.2,2021.4,2022.0,2022.1,2022.2,2022.2.1,202
 runner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 macos-14,&check;,&check;,&check;,,,,,,,,,,,,,,,,&check;,,&check;,&check;,&check;,&check;,&check;,,&check;,&check;,&check;,,,&check;,&check;,,,,,,,,,,,,
 macos-15,&check;,&check;,&check;,,,,,,,,,,,,,,,,&check;,,&check;,&check;,&check;,&check;,&check;,,&check;,&check;,&check;,,,&check;,&check;,,,,,,,,,,,,
-macos-15-intel,&check;,&check;,&check;,,,&check;,&check;,,,,,,,,,,,,&check;,,&check;,&check;,&check;,&check;,&check;,,&check;,&check;,&check;,,,&check;,&check;,,,,,,,,,,,,
-ubuntu-22.04,&check;,,,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,,
+macos-15-intel,&check;,&check;,&check;,&check;,,&check;,&check;,,,,,,,,,,,,&check;,,&check;,&check;,&check;,&check;,&check;,,&check;,&check;,&check;,,,&check;,&check;,,,,,,,,,,,,
+ubuntu-22.04,&check;,,,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;
 ubuntu-24.04,&check;,&check;,,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,&check;,,,,,,,,,,&check;,&check;
 windows-2022,&check;,&check;,&check;,,,,,,&check;,&check;,,,&check;,&check;,&check;,&check;,&check;,&check;,,,,,,,&check;,,,&check;,&check;,&check;,&check;,&check;,&check;,,,,,,,,,,,,
 windows-2025,&check;,&check;,&check;,,,,,,&check;,&check;,,,&check;,&check;,&check;,&check;,&check;,&check;,,,,,,,&check;,,,&check;,&check;,&check;,&check;,&check;,&check;,,,,,,,,,,,,
