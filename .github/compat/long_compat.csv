@@ -182,7 +182,7 @@ ubuntu-24.04,nvidia-hpc,24.1,
 ubuntu-24.04,nvidia-hpc,24.3,
 ubuntu-24.04,nvidia-hpc,24.5,&check;
 ubuntu-24.04,nvidia-hpc,25.1,&check;
-windows-2022,gcc,13,&check;
+windows-2022,gcc,13,
 windows-2022,gcc,14,&check;
 windows-2022,gcc,15,&check;
 windows-2022,intel-classic,2021.1.2,
@@ -215,8 +215,8 @@ windows-2022,intel,2025.0,&check;
 windows-2022,intel,2025.2,&check;
 windows-2022,lfortran,0.57.0,&check;
 windows-2022,lfortran,0.58.0,&check;
-windows-2025,gcc,13,&check;
-windows-2025,gcc,14,&check;
+windows-2025,gcc,13,
+windows-2025,gcc,14,
 windows-2025,gcc,15,&check;
 windows-2025,intel-classic,2021.1.2,
 windows-2025,intel-classic,2021.1,
