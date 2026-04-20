@@ -189,7 +189,6 @@ windows-2022,intel,2022.1,&check;
 windows-2022,intel,2022.2.1,
 windows-2022,intel,2022.2,&check;
 windows-2022,intel,2023.0,
-windows-2022,intel,2023.1,&check;
 windows-2022,intel,2023.2,&check;
 windows-2022,intel,2024.0,&check;
 windows-2022,intel,2024.1,&check;
