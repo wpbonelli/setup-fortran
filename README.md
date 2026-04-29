@@ -125,6 +125,8 @@ Toolchain support varies across GitHub-hosted runner images.
 
 **Note:** LFortran is currently only discoverable by name with `bash` on Windows, see [here for context](https://github.com/fortran-lang/setup-fortran/pull/57#issuecomment-2021605094).
 
+**Note:** GCC on ARM64 Windows runners is x86_64 MinGW running under emulation — compiled binaries will be x86_64, not ARM64. This is a limitation of the Chocolatey `mingw` package, whose upstream ([WinLibs](https://winlibs.com)) does not yet ship an ARM64-native toolchain.
+
 ## License
 
 Licensed under the Apache License, Version 2.0 (the “License”);

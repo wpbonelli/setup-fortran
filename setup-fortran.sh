@@ -53,6 +53,9 @@ detect_runner_os()
       win25)
         echo "windows-2025"
         ;;
+      win11-arm64)
+        echo "windows-11-arm"
+        ;;
       *)
         # If not recognized, return as-is
         echo "$ImageOS"
@@ -207,9 +210,20 @@ install_gcc_apt()
 
 install_gcc_choco()
 {
+  local platform=${1:-}
   local resolved_version=$version
   if [[ "$version" == "latest" ]]; then
     resolved_version=$(resolve_latest_version "gcc" "mingw")
+  fi
+
+  # On ARM64 Windows, MinGW/GCC is x86_64 under emulation: WinLibs (the upstream
+  # source for Chocolatey's mingw package) only ships x86_64 and i686 targets.
+  # Compiled binaries will be x86_64, not ARM64. This will remain true until
+  # WinLibs or an equivalent source publishes native ARM64 Windows toolchains.
+  if [[ "$platform" == *arm64* ]] || [[ "$platform" == *aarch64* ]]; then
+    echo "Warning: GCC on ARM64 Windows is x86_64 MinGW under emulation." \
+         "Compiled binaries will be x86_64, not ARM64." \
+         "This will remain the case until WinLibs publishes native ARM64 Windows toolchains."
   fi
 
   # check if mingw preinstalled via choco, falling back to check directly for gfortran
@@ -325,13 +339,13 @@ install_gcc()
       install_gcc_brew
       ;;
     mingw*)
-      install_gcc_choco
+      install_gcc_choco "$platform"
       ;;
     msys*)
-      install_gcc_choco
+      install_gcc_choco "$platform"
       ;;
     cygwin*)
-      install_gcc_choco
+      install_gcc_choco "$platform"
       ;;
     *)
       echo "Unsupported platform: $platform"

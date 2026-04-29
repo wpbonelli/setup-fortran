@@ -230,3 +230,5 @@ windows-2025,intel,2025.0,&check;
 windows-2025,intel,2025.2,&check;
 windows-2025,lfortran,0.57.0,&check;
 windows-2025,lfortran,0.58.0,&check;
+windows-11-arm,gcc,15,&check;
+
