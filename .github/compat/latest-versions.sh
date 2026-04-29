@@ -12,6 +12,7 @@ LATEST_gcc_macos_26="15"
 LATEST_gcc_macos_26_intel="15"
 LATEST_gcc_ubuntu_22_04="15"
 LATEST_gcc_ubuntu_24_04="15"
+LATEST_gcc_windows_11_arm="15"
 LATEST_gcc_windows_2022="15"
 LATEST_gcc_windows_2025="15"
 
