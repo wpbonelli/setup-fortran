@@ -25,7 +25,7 @@ LATEST_intel_windows_2025="2025.2"
 
 # Latest supported intel-classic versions by runner
 LATEST_intel_classic_macos_14="2021.10"
-LATEST_intel_classic_macos_15="2021.10"
+LATEST_intel_classic_macos_15="2021.9"
 LATEST_intel_classic_macos_15_intel="2021.10"
 LATEST_intel_classic_macos_26="2021.10"
 LATEST_intel_classic_macos_26_intel="2021.10"
