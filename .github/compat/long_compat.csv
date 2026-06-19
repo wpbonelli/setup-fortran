@@ -248,7 +248,7 @@ windows-2022,intel,2023.2,&check;
 windows-2022,intel,2024.0,&check;
 windows-2022,intel,2024.1,&check;
 windows-2022,intel,2025.0,&check;
-windows-2022,intel,2025.2,&check;
+windows-2022,intel,2025.2,
 windows-2022,lfortran,0.57.0,&check;
 windows-2022,lfortran,0.58.0,&check;
 windows-2025,gcc,13,&check;
