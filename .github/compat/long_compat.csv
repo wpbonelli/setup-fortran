@@ -55,7 +55,7 @@ macos-15,gcc,14,&check;
 macos-15,gcc,15,&check;
 macos-15,intel-classic,2021.1.2,
 macos-15,intel-classic,2021.1,&check;
-macos-15,intel-classic,2021.10,&check;
+macos-15,intel-classic,2021.10,
 macos-15,intel-classic,2021.11,
 macos-15,intel-classic,2021.12,
 macos-15,intel-classic,2021.2,&check;
